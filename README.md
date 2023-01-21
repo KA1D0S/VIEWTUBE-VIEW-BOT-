@@ -7,32 +7,7 @@ Simple program to increase YouTube views written in C#. Works with live stream t
 
 Disclaimer: This has been developed for educational purposes only. Any action you take using this script is strictly at your own risk. I will not be liable for any losses or damages you face using this script.
 
-# FEATURES
-YouTube default, live streaming and YouTube Music support
-Multithreaded and Dynamic thread support
-Auto download updated chrome driver whenever user's Google Chrome version is updated
-Patch chrome driver on the start of every thread by undetected-chromedriver
-Proxy support
-location : text file (must be on path) / proxy API (should work with most of the proxy providers)
-type : http, https, socks4, socks5
-format : ip:port, user:pass@ip:port, ip:port:user:pass
-proxy refresh after a certain time specified by the user
-rotating proxy support
-chrome v80+ randomized user agent based on platform
-canvas,audio,font,webgl fingerprint defender and IP leak prevent by webrtc control
-geolocation, timezone, referer spoofing
-can add extra extensions in the extension/custom_extension/ folder
-direct link or search keyword on YouTube then watch the video by matching exact video title
-modify urls.txt, search.txt and config.json on the fly without restarting program
-HTTP api on localhost and a database to store view count
-config.json to save settings
-bypass consent page and several other pop up
-save bandwidth by reducing video quality
-can set higher(100%) watch duration percentage to increase Watch time, change playback speed
-Traffic Sources
-YouTube Search
-Suggested Videos
-External (Google, Yahoo, DuckDuckGo, Bing, Twitter)
-End Screens
-Channel Pages
-Direct or unknown
+# LOGGING/STATS
+
+Live logs fetched every 10 seconds and statistics in graphs are available on http://localhost:5000/ .Or http://ip_of_your_pc:5000/ use this to access from another device under same network. A SQLite Database is being used to store your generated views from this script. Last 200 logs from scripts are fetched every 10 seconds to show on website and graph is updated every 5 minutes.
+
