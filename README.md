@@ -20,6 +20,9 @@ It seems Rotating proxy gives the best result. But the IP MUST NOT change on eac
 Use both urls.txt and search.txt
 And use as many urls and keyword::::title as you can. Don't use just one video.
 
+# PROXIES (ARENT NEEDED BUT CAN BE USED FOR SPEED)
+PetroSky is one of the various CloudHosting services with the fastest and most convenient cloud technology. Their servers are powered by the latest AMD RYZEN/EPYC CPUs with High-Performance NVMe SSD Hard Drives that will let your application run faster than ever. You can get 2 vCPU with 4 GB ECC RAM for as low as 11.99€/month which will work very well for YouTube-Viewer script for 2 threads. Visit PetroSky to get the fastest VPS with unlimited traffic at the lowest price. Use this code mshawon25 to get 25% discount on your purchase
+
 # CREDITS.
  - CREDITS TO TUHUO FOR HELPING ME WITH THE API FRAMEWORK.
  - PLEASE LEAVE ANY FEEDBACK IN THE 'ISSUES' TAB.
